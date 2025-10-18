@@ -90,5 +90,41 @@
         </div>
       </section>
     </main>
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <p class="modal-title">Send a message</p>
+
+        <form class="form">
+          <div class="form-field">
+            <input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder=" "
+              required
+            />
+
+            <label class="form-label" for="user-name">Name</label>
+          </div>
+
+          <div class="form-field">
+            <input
+              class="form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder=" "
+              required
+            />
+
+            <label class="form-label" for="user-email">Email</label>
+          </div>
+
+          <button class="form-btn" type="button">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
